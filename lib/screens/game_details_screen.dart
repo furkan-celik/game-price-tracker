@@ -22,6 +22,18 @@ class GameDetailsScreen extends StatelessWidget {
     final Game _game =
         Provider.of<PcGames>(context, listen: false).findGame(args["game"]);
 
+    int cutOff = 0;
+    for (var i = 0; i < _game.publisher.length; i++) {
+      if (_game.publisher[i] != " " &&
+          _game.publisher[i] != "\t" &&
+          _game.publisher[i] != "\n") {
+        cutOff = i;
+      } else {
+        break;
+      }
+    }
+    _game.publisher = _game.publisher.substring(cutOff);
+
     return Scaffold(
       appBar: AppBar(
         title: Text(_game.name),
@@ -60,10 +72,12 @@ class GameDetailsScreen extends StatelessWidget {
                       Text(
                         "Producer: ${_game.producer.substring(0, _game.producer.length >= 20 ? 20 : _game.producer.length)}...",
                         overflow: TextOverflow.fade,
+                        maxLines: 1,
                       ),
                       Text(
                         "Publisher: ${_game.publisher.substring(0, _game.publisher.length >= 20 ? 20 : _game.publisher.length)}...",
                         overflow: TextOverflow.fade,
+                        maxLines: 1,
                       ),
                     ],
                   ),
@@ -81,19 +95,14 @@ class GameDetailsScreen extends StatelessWidget {
                             child: Center(
                               child: ListView.builder(
                                 scrollDirection: Axis.horizontal,
-                                itemBuilder: (ctx, idx) => Card(
-                                  margin: const EdgeInsets.all(5),
-                                  color: Colors.red[200],
-                                  child: Center(
-                                    child: Padding(
-                                      padding: const EdgeInsets.all(4.0),
-                                      child: Text(
-                                        GamePlatformToString(_game.platform),
-                                      ),
-                                    ),
+                                itemBuilder: (ctx, idx) => Chip(
+                                  padding: const EdgeInsets.all(5),
+                                  backgroundColor: Colors.red[200],
+                                  label: Text(
+                                    GamePlatformToString(_game.platform),
                                   ),
                                 ),
-                                itemCount: 3,
+                                itemCount: 1,
                               ),
                             ),
                           ),
@@ -119,7 +128,10 @@ class GameDetailsScreen extends StatelessWidget {
                 itemBuilder: (ctx, i) => Column(
                   children: [
                     ListTile(
-                      leading: Image.network(_game.priceList[i].icon),
+                      leading: Image.network(
+                        _game.priceList[i].icon,
+                        width: 100,
+                      ),
                       title: Text(_game.priceList[i].name),
                       trailing: Container(
                         width: 100,

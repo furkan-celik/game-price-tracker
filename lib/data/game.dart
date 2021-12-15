@@ -37,7 +37,7 @@ class Game with ChangeNotifier {
   final String name;
   final String releaseDate;
   final String producer;
-  final String publisher;
+  String publisher;
   final GamePlatform platform;
   final List<String> pictures;
   final List<Offer> priceList;
