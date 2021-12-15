@@ -1,0 +1,139 @@
+{
+    "games": [
+        {
+            "name": "Grand Theft Auto V",
+            "release_date": "April 14, 2015",
+            "producer": "Rockstar",
+            "publisher": "Rockstar",
+            "platform": "PC",
+            "pictures": [
+                "https://steamcdn-a.akamaihd.net/steam/apps/271590/header.jpg?t=1592866696",
+                "https://cdn.akamai.steamstatic.com/steam/apps/271590/ss_32aa18ab3175e3002217862dd5917646d298ab6b.600x338.jpg",
+                "https://cdn.akamai.steamstatic.com/steam/apps/271590/ss_2744f112fa060320d191a50e8b3a92441a648a56.600x338.jpg",
+                "https://cdn.akamai.steamstatic.com/steam/apps/271590/ss_da39c16db175f6973770bae6b91d411251763152.600x338.jpg"
+            ],
+            "priceList": [
+                {
+                    "name": "Steam",
+                    "price": 77.33,
+                    "icon": "https://www.gamehunterz.com/static/media/images/steam_P0eMIQm.png",
+                    "link": "https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/?snr=1_7_7_151_150_1"
+                },
+                {
+                    "name": "DurmaPlay",
+                    "price": 99.00,
+                    "icon": "https://www.gamehunterz.com/static/media/images/durmaplay_gdnhJix.png",
+                    "link": "https://www.durmaplay.com/tr/store/grand-theft-auto-5/buy/steam"
+                },
+                {
+                    "name": "G2A",
+                    "price": 109.89,
+                    "icon": "https://www.gamehunterz.com/static/media/images/g2a_ABeJ8vK.png",
+                    "link": "https://www.g2a.com/tr-tr/grand-theft-auto-v-pc-rockstar-key-global-i10000000788017?___currency=TRY&gtag=cd56fe2375&utm_source=gamehunterz&utm_medium=price_comparison&utm_campaign=COM_TR_PB_DIGI_GAM_LISTING_NOR_gamehunterz"
+                },
+                {
+                    "name": "Cdkeys",
+                    "price": 127.38,
+                    "icon": "https://www.gamehunterz.com/static/media/images/cdkeys_18rIrVY.png",
+                    "link": "https://www.cdkeys.com/grand-theft-auto-v-5-pc-cd-key"
+                },
+                {
+                    "name": "BursaGB",
+                    "price": 139.43,
+                    "icon": "https://www.gamehunterz.com/static/media/images/bursagb.png",
+                    "link": "https://www.bursagb.com/grand-theft-auto-v/grand-theft-auto-v?utm_source=gamehunterz&utm_medium=yonlendirme&utm_campaign=gh-is-birligi"
+                }
+            ]
+        },
+        {
+            "name": "Fifa 22",
+            "release_date": "Oct. 1, 2021",
+            "producer": "EA",
+            "publisher": "EA",
+            "platform": "PC",
+            "pictures": [
+                "https://cdn.akamai.steamstatic.com/steam/apps/1506830/header.jpg?t=1633113405",
+                "https://cdn.akamai.steamstatic.com/steam/apps/1506830/ss_487947e6eb5e8ca8f71e8bfea77753c95eca1b25.600x338.jpg",
+                "https://cdn.akamai.steamstatic.com/steam/apps/1506830/ss_f526296665433ef5475972b690d51f9b6eebf991.600x338.jpg",
+                "https://cdn.akamai.steamstatic.com/steam/apps/1506830/ss_2cdf78a2091db6adb7ec405f4c5438fd621266a9.600x338.jpg"
+            ],
+            "priceList": [
+                {
+                    "name": "Steam",
+                    "price": 419.99,
+                    "icon": "https://www.gamehunterz.com/static/media/images/steam_P0eMIQm.png",
+                    "link": "https://store.steampowered.com/app/1506830/FIFA_22/?l=turkish"
+                },
+                {
+                    "name": "DurmaPlay",
+                    "price": 419.99,
+                    "icon": "https://www.gamehunterz.com/static/media/images/durmaplay_gdnhJix.png",
+                    "link": "https://www.bursagb.com/fifa-22/fifa-22-standard-edition?utm_source=gamehunterz&utm_medium=yonlendirme&utm_campaign=gh-is-birligi"
+                },
+                {
+                    "name": "G2A",
+                    "price": 526.37,
+                    "icon": "https://www.gamehunterz.com/static/media/images/g2a_ABeJ8vK.png",
+                    "link": "https://www.g2a.com/fifa-22-pc-steam-gift-global-i10000263306004"
+                },
+                {
+                    "name": "Cdkeys",
+                    "price": 461.58,
+                    "icon": "https://www.gamehunterz.com/static/media/images/cdkeys_18rIrVY.png",
+                    "link": "https://www.cdkeys.com/fifa-22-pc-origin"
+                },
+                {
+                    "name": "BursaGB",
+                    "price": 426.67,
+                    "icon": "https://www.gamehunterz.com/static/media/images/bursagb.png",
+                    "link": "https://www.bursagb.com/fifa-22/fifa-22-standard-edition?utm_source=gamehunterz&utm_medium=yonlendirme&utm_campaign=gh-is-birligi"
+                },
+                {
+                    "name": "FoxnGames",
+                    "price": 398.99,
+                    "icon": "https://www.gamehunterz.com/static/media/images/foxn.png",
+                    "link": "https://www.foxngame.com/fifa-22?ref=Gamehunterz"
+                }
+            ]
+        },
+        {
+            "name": "Twelve Minutes",
+            "release_date": "Oct. 1, 2021",
+            "producer": "EA",
+            "publisher": "EA",
+            "platform": "PC",
+            "pictures": [
+                "https://cdn.akamai.steamstatic.com/steam/apps/1097200/header.jpg?t=1629747305",
+                "https://cdn.akamai.steamstatic.com/steam/apps/1097200/ss_0f8fd280d0e1477778774ebb99664b3d8c5a2148.600x338.jpg",
+                "https://cdn.akamai.steamstatic.com/steam/apps/1097200/ss_85c0b4036a36a61027cb17415ac739f2a05239b8.600x338.jpg",
+                "https://cdn.akamai.steamstatic.com/steam/apps/1097200/ss_018eace66d6a29987176d2f7b609555a6df01702.600x338.jpg"
+            ],
+            "priceList": [
+                {
+                    "name": "Steam",
+                    "price": 70.00,
+                    "icon": "https://www.gamehunterz.com/static/media/images/steam_P0eMIQm.png",
+                    "link": "https://store.steampowered.com/app/1097200/Twelve_Minutes/"
+                },
+                {
+                    "name": "FoxnGames",
+                    "price": 70.00,
+                    "icon": "https://www.gamehunterz.com/static/media/images/foxn.png",
+                    "link": "https://www.foxngame.com/twelve-minutes?ref=Gamehunterz"
+                },
+                {
+                    "name": "G2A",
+                    "price": 245.97,
+                    "icon": "https://www.gamehunterz.com/static/media/images/g2a_ABeJ8vK.png",
+                    "link": "https://www.g2a.com/tr-tr/twelve-minutes-pc-steam-gift-global-i10000256576004?___currency=TRY&gtag=cd56fe2375&utm_source=gamehunterz&utm_medium=price_comparison&utm_campaign=COM_TR_PB_DIGI_GAM_LISTING_NOR_gamehunterz"
+                },
+                {
+                    "name": "BursaGB",
+                    "price": 64.40,
+                    "icon": "https://www.gamehunterz.com/static/media/images/bursagb.png",
+                    "link": "https://www.bursagb.com/twelve-minutes/twelve-minutes-steam-key?utm_source=gamehunterz&utm_medium=yonlendirme&utm_campaign=gh-is-birligi"
+                }
+            ]
+        }
+    ]
+}
